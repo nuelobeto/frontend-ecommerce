@@ -77,7 +77,7 @@ function Navbar() {
                 <li>
                   {user ? (
                     <div className="user">
-                      <p>{user.name}</p>
+                      <p>{user.name.charAt(0).toUpperCase()}</p>
                       <button className="logout-btn" onClick={handleLogout}>
                         Logout
                       </button>
