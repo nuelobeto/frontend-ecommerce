@@ -1,0 +1,46 @@
+.checkout-container h1 {
+  text-align: center;
+  margin: 20px auto;
+  width: 70%;
+  display: block;
+  font-size: 25px;
+}
+
+.checkout-img {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.checkout-img img {
+  width: 100%;
+  display: block;
+}
+
+.checkout-container button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(23, 23, 34);
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto 0;
+}
+
+@media (max-width: 796px) {
+  .checkout-container h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 796px) {
+  .checkout-container h1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 510px) {
+  .checkout-container h1 {
+    font-size: 12px;
+  }
+}

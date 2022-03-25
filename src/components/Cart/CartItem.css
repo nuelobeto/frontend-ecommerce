@@ -1,0 +1,46 @@
+.cart-item {
+  display: flex;
+  border-top: 1px solid rgb(216, 214, 214);
+  padding: 20px 20px;
+  margin: 10px;
+}
+
+.image {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.title-price {
+  height: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.quantity {
+  display: flex;
+}
+
+.quantity input {
+  width: 50px;
+  text-align: center;
+  outline: none;
+  border: 1px solid black;
+}
+
+.quantity button {
+  width: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.removeItem {
+  padding: 5px 10px;
+  cursor: pointer;
+}

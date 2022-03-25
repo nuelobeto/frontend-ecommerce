@@ -1,0 +1,51 @@
+.product {
+  width: 150px;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0 10px 20px 10px;
+  position: relative;
+  box-shadow: 0 3px 10px rgb(196, 196, 196);
+}
+
+.product:hover .overlay {
+  display: block;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product-price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.opacity {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  opacity: 0.4;
+}
+
+.add-to-cart {
+  width: 70%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  line-height: 30px;
+  cursor: pointer;
+}
