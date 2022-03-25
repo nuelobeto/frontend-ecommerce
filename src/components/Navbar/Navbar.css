@@ -152,7 +152,19 @@ nav a {
 }
 
 @media (max-width: 540px) {
-  nav li {
+  nav li,
+  .logout-btn {
     margin-left: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  nav li,
+  .logout-btn {
+    margin-left: 10px;
   }
 }

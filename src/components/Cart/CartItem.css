@@ -12,10 +12,10 @@
 
 .image img {
   width: 100%;
+  display: block;
 }
 
 .title-price {
-  height: 150px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -43,4 +43,16 @@
 .removeItem {
   padding: 5px 10px;
   cursor: pointer;
+}
+
+@media (max-width: 365px) {
+  .title-price {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 350px) {
+  .title-price {
+    font-size: 13px;
+  }
 }
